@@ -66,3 +66,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+.tempPower{
+  font-size: 1rem;
+}
+
+.wind-status-area-chart {
+  min-width: inherit;
+  min-height: inherit;
+}
