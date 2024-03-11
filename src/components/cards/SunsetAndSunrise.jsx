@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
@@ -6,40 +6,45 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
+import UVIndexPieChart from "../graphs/UVIndexPieChart";
+
+
+import SunriseIcon from "../../assets/icons/weather-animated-icons/sunrise.svg";
 function SunsetAndSunrise() {
   return (
+    <Card>
+      <CardContent>
+        <Typography variant="body2">Sunset And Sunrise</Typography>
 
-<Card >
-    <CardContent>
-      <Typography variant='body2'>Sunset And Sunrise</Typography>
+        <UVIndexPieChart />
 
-      <Stack
-        spacing={{ xs: 1, sm: 2 }}
-        direction={{ xs: 'column', sm: 'row' }}
-        justifyContent="space-between"
-        alignItems={{ xs: 'center', sm: 'flex-end' }}
-        
-        flexWrap="wrap"
-      >
-        <Typography variant="h3" color="text.secondary" gutterBottom>
-        <img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/cloud-wind-64.png" alt="" /><br/>
-        "sunrise": 1710032306,
-    "sunset": 1710075317<span className="tempPower"></span>
-        </Typography>
-        <Box>
-        <Typography className="weathermain-text" color="text.secondary">
-        "speed": 3.6,
-       
-        </Typography>
-        <Typography className="feels-like" variant="body2" color="text.secondary"> "deg": 90</Typography>
-        </Box>
+        <Stack
+          direction={{ xs: "row", sm: "row" }}
+          justifyContent="space-between"
+          flexWrap="wrap"
+        >
+          <Box sx={{ textAlign: "center" }}>
 
-      </Stack>
+            <Typography variant="body2" color="text.secondary">
+              Sunrise
+            </Typography>
+            <Typography variant="h6" color="text.secondary">
+              6:00
+            </Typography>
+          </Box>
 
-    </CardContent>
-  </Card>
-
-  )
+          <Box sx={{ textAlign: "center" }}>
+            <Typography variant="body2" color="text.secondary">
+              Sunset
+            </Typography>
+            <Typography variant="h6" color="text.secondary">
+              20:30
+            </Typography>
+          </Box>
+        </Stack>
+      </CardContent>
+    </Card>
+  );
 }
 
-export default SunsetAndSunrise
+export default SunsetAndSunrise;
