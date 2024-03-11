@@ -19,7 +19,7 @@ function HomePage() {
         </Grid>
         <Grid item xs={12} sm={9}>
           <Grid container item spacing={1}>
-            <Grid item container item spacing={1}>
+            <Grid item container spacing={1}>
             <Grid item xs={2} sm={2}>
              <Box>Mon</Box>
             </Grid>

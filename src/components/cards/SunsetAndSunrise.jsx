@@ -8,8 +8,6 @@ import Typography from "@mui/material/Typography";
 
 import UVIndexPieChart from "../graphs/UVIndexPieChart";
 
-
-import SunriseIcon from "../../assets/icons/weather-animated-icons/sunrise.svg";
 function SunsetAndSunrise() {
   return (
     <Card>
@@ -24,6 +22,7 @@ function SunsetAndSunrise() {
           flexWrap="wrap"
         >
           <Box sx={{ textAlign: "center" }}>
+ 
 
             <Typography variant="body2" color="text.secondary">
               Sunrise

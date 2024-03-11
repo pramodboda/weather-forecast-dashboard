@@ -11,13 +11,15 @@ function Visibility() {
     <Card>
       <CardContent>
         <Typography variant="body2">Visibility</Typography>
-        <Typography variant="h3" color="text.secondary" >
-            <img
-              src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/cloud-wind-64.png"
-              alt=""
-            />
-            6000<span className="tempPower"></span>
-          </Typography>
+       
+       
+        <Typography variant="h3" color="text.secondary">
+          <img
+            src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/cloud-wind-64.png"
+            alt=""
+          />
+          6000<span className="tempPower"></span>
+        </Typography>
       </CardContent>
     </Card>
   );

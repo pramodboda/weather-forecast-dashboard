@@ -7,7 +7,7 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-import PartlyCloudyNightRain from "../../assets/icons/weather-animated-icons/partly-cloudy-night-rain.svg";
+
 
 function CurrentTemp() {
   return (
