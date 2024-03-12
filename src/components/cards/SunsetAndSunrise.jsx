@@ -8,7 +8,8 @@ import Typography from "@mui/material/Typography";
 
 import UVIndexPieChart from "../graphs/UVIndexPieChart";
 
-import SunriseSVGIcon from "../../assets/weather-icons/SunriseSVGIcon"
+import SunriseSVGIcon from "../../assets/weather-icons/SunriseSVGIcon";
+import SunsetSVGIcon from "../../assets/weather-icons/SunsetSVGIcon";
 
 
 function SunsetAndSunrise() {
@@ -35,6 +36,7 @@ function SunsetAndSunrise() {
           </Box>
 
           <Box sx={{ textAlign: "center" }}>
+          <SunsetSVGIcon/>
             <Typography variant="body2" color="text.secondary">
               Sunset
             </Typography>

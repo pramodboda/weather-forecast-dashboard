@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SunriseSVGIcon(props) {
+function SunsetSVGIcon(props) {
   return (
     <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -13,20 +13,20 @@ function SunriseSVGIcon(props) {
     <defs>
       <linearGradient
         id="a"
-        x1={149.99}
-        y1={119.24}
-        x2={234.01}
-        y2={264.76}
+        x1={150}
+        x2={234}
+        y1={119.2}
+        y2={264.8}
         gradientUnits="userSpaceOnUse"
       >
         <stop offset={0} stopColor="#fbbf24" />
-        <stop offset={0.45} stopColor="#fbbf24" />
+        <stop offset={0.5} stopColor="#fbbf24" />
         <stop offset={1} stopColor="#f59e0b" />
       </linearGradient>
       <clipPath id="b">
         <path
-          d="M512,306H304l-35.86-31.38a18.44,18.44,0,0,0-24.28,0L208,306H0V0H512Z"
           fill="none"
+          d="M512 306H296a21.5 21.5 0 00-14 5.3L256 334l-26-22.7a21.5 21.5 0 00-14-5.3H0V0h512Z"
         />
       </clipPath>
       <symbol id="c" viewBox="0 0 384 384">
@@ -34,48 +34,48 @@ function SunriseSVGIcon(props) {
           cx={192}
           cy={192}
           r={84}
+          fill="url(#a)"
           stroke="#f8af18"
           strokeMiterlimit={10}
           strokeWidth={6}
-          fill="url(#a)"
         />
         <path
-          d="M192,61.66V12m0,360V322.34M284.17,99.83l35.11-35.11M64.72,319.28l35.11-35.11m0-184.34L64.72,64.72M319.28,319.28l-35.11-35.11M61.66,192H12m360,0H322.34"
           fill="none"
           stroke="#fbbf24"
           strokeLinecap="round"
           strokeMiterlimit={10}
           strokeWidth={24}
+          d="M192 61.7V12m0 360v-49.7m92.2-222.5 35-35M64.8 319.2l35.1-35.1m0-184.4-35-35m254.5 254.5-35.1-35.1M61.7 192H12m360 0h-49.7"
         >
           <animateTransform
-            attributeName="transform"
             additive="sum"
-            type="rotate"
-            values="0 192 192; 45 192 192"
+            attributeName="transform"
             dur="6s"
             repeatCount="indefinite"
+            type="rotate"
+            values="0 192 192; 45 192 192"
           />
         </path>
       </symbol>
     </defs>
     <g clipPath="url(#b)">
       <use
+        xlinkHref="#c"
         width={384}
         height={384}
         transform="translate(64 100)"
-        xlinkHref="#c"
       />
     </g>
-    <polyline
-      points="128 332 216 332 256 296 296 332 384 332"
+    <path
       fill="none"
       stroke="#374151"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={18}
+      d="M128 332h88l40 36 40-36h88"
     />
   </svg>
   )
 }
 
-export default SunriseSVGIcon
+export default SunsetSVGIcon
