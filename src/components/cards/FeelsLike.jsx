@@ -13,7 +13,7 @@ function FeelsLike() {
       <Typography variant='body2'>Feels Like</Typography>
 
       <Typography variant="h3" color="text.secondary">
-        <img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/cloud-wind-64.png" alt="" />
+        {/* <img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/cloud-wind-64.png" alt="" /> */}
         29<span className="">°</span>
         </Typography>
 

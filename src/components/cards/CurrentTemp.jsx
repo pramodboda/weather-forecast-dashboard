@@ -7,6 +7,8 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
+import PartlyCloudyNightRainSVGIcon from "../../assets/weather-icons/PartlyCloudyNightRainSVGIcon";
+
 
 
 function CurrentTemp() {
@@ -23,7 +25,9 @@ function CurrentTemp() {
           
           flexWrap="wrap"
         >
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+
+<PartlyCloudyNightRainSVGIcon/>
+{/* <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
 	<defs>
 		<linearGradient id="a" x1="13.58" y1="15.57" x2="24.15" y2="33.87" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#86c3db"/>
@@ -60,7 +64,7 @@ function CurrentTemp() {
 		<animateTransform attributeName="transform" begin="-0.2s" type="translate" values="1 -5; -2 10" dur="0.7s" repeatCount="indefinite"/>
 		<animate attributeName="opacity" begin="-0.2s" values="0;1;1;0" dur="0.7s" repeatCount="indefinite"/>
 	</line>
-</svg>
+</svg> */}
 
           <Typography variant="h2" color="text.secondary" gutterBottom>
             
