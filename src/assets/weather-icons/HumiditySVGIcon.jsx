@@ -10,7 +10,7 @@ const HumiditySVGIcon = (props) => (<svg
 >
   <defs>
     <linearGradient
-      id="a"
+      id="humidity-a"
       x1={14.8}
       x2={124.2}
       y1={42.3}
@@ -21,9 +21,9 @@ const HumiditySVGIcon = (props) => (<svg
       <stop offset={0.5} stopColor="#3392d6" />
       <stop offset={1} stopColor="#2477b2" />
     </linearGradient>
-    <symbol id="b" viewBox="0 0 164 245.6">
+    <symbol id="humidity-b" viewBox="0 0 164 245.6">
       <path
-        fill="url(#a)"
+        fill="url(#humidity-a)"
         stroke="#2885c7"
         strokeMiterlimit={10}
         strokeWidth={4}
@@ -43,7 +43,7 @@ const HumiditySVGIcon = (props) => (<svg
     </symbol>
   </defs>
   <use
-    xlinkHref="#b"
+    xlinkHref="#humidity-b"
     width={164}
     height={245.6}
     transform="translate(173.9 133.01)"

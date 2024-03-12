@@ -12,7 +12,7 @@ function OvercastDayDrizzleSVGIcon(props) {
   >
     <defs>
       <linearGradient
-        id="a"
+        id="ODDSunCenter"
         x1={16.5}
         y1={19.67}
         x2={21.5}
@@ -36,7 +36,7 @@ function OvercastDayDrizzleSVGIcon(props) {
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
-        id="c"
+        id="ODDCloud-c"
         x1={23.31}
         y1={44.3}
         x2={24.69}
@@ -48,12 +48,12 @@ function OvercastDayDrizzleSVGIcon(props) {
         <stop offset={1} stopColor="#0950bc" />
       </linearGradient>
       <linearGradient
-        id="d"
+        id="ODDCloud-d"
         x1={30.31}
         y1={44.3}
         x2={31.69}
         y2={46.7}
-        xlinkHref="#c"
+        xlinkHref="#ODDCloud-c"
       />
       <linearGradient
         id="e"
@@ -61,7 +61,7 @@ function OvercastDayDrizzleSVGIcon(props) {
         y1={44.3}
         x2={38.69}
         y2={46.7}
-        xlinkHref="#c"
+        xlinkHref="#ODDCloud-c"
       />
     </defs>
     <circle
@@ -71,7 +71,7 @@ function OvercastDayDrizzleSVGIcon(props) {
       stroke="#f8af18"
       strokeMiterlimit={10}
       strokeWidth={0.5}
-      fill="url(#a)"
+      fill="url(#ODDSunCenter)"
     />
     <path
       d="M19,15.67V12.5m0,23V32.33m5.89-14.22,2.24-2.24M10.87,32.13l2.24-2.24m0-11.78-2.24-2.24M27.13,32.13l-2.24-2.24M7.5,24h3.17M30.5,24H27.33"
@@ -130,7 +130,7 @@ function OvercastDayDrizzleSVGIcon(props) {
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={2}
-      stroke="url(#d)"
+      stroke="url(#ODDCloud-d)"
     >
       <animateTransform
         attributeName="transform"
