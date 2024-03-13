@@ -38,8 +38,12 @@ function WindStatus() {
             <Typography color="text.secondary">
               <NavigationIcon sx={{ fontSize: "2.5rem" }} />
             </Typography>
+
             <Typography variant="body2" color="text.secondary">
               Wind direction
+            </Typography>
+            <Typography variant="h4" color="text.secondary">
+              93
             </Typography>
           </Box>
 
@@ -49,6 +53,9 @@ function WindStatus() {
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Gust
+            </Typography>
+            <Typography variant="h4" color="text.secondary">
+              93
             </Typography>
           </Box>
         </Stack>

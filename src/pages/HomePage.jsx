@@ -9,31 +9,50 @@ import SunsetAndSunrise from "../components/cards/SunsetAndSunrise";
 import Humidity from "../components/cards/Humidity";
 import Visibility from "../components/cards/Visibility";
 import FeelsLike from "../components/cards/FeelsLike";
+import Typography from "@mui/material/Typography";
+
+//Components
+import DarkLightModeBtn from "../components/buttons/DarkLightModeBtn";
+import DayWeatherCard from "../components/cards/DayWeatherCard";
+
+
+//Icons
+import PartlyCloudyDaySVGIcon from "../assets/weather-icons/PartlyCloudyDaySVGIcon.jsx"
 
 function HomePage() {
   return (
     <>
+     <Typography variant="h4">Weather Forecast Dashboard</Typography>
+    <DarkLightModeBtn/>
+   
       <Grid container item spacing={2} >
         <Grid item xs={12} sm={3} >
           <CurrentTemp />
         </Grid>
         <Grid item xs={12} sm={9}>
-          <Grid container item spacing={1}>
+          <Grid container item spacing={2}>
             <Grid item container spacing={1}>
             <Grid item xs={2} sm={2}>
-             <Box>Mon</Box>
+             <DayWeatherCard day="Sun" icon={<PartlyCloudyDaySVGIcon/>} temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
-             <Box>Tue</Box>
+             <DayWeatherCard day="Mon" icon="coming soon" temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
-             <Box>Wed</Box>
+             
+              <DayWeatherCard day="Tue" icon="coming soon" temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
-             <Box>Thu</Box>
+             
+              <DayWeatherCard day="Wed" icon="coming soon" temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
-             <Box>Fri</Box>
+             
+              <DayWeatherCard day="Thu" icon="coming soon" temp="10" />
+            </Grid>
+            <Grid item xs={2} sm={2}>
+             
+              <DayWeatherCard day="Fri" icon="coming soon" temp="10" />
             </Grid>
             </Grid>
             <Grid item xs={12} sm={4}>

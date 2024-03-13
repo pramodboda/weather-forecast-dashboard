@@ -5,13 +5,20 @@ import "./App.css";
 import CurrentTemp from "./components/cards/CurrentTemp";
 import HomePage from "./pages/HomePage";
 
+
+//Context
+import { ColorModeContextProvider } from "./context/ColorModeContext.jsx";
+import { ThemeProvider } from '@mui/material/styles';
+
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h2>Weather Forecast Dashboard</h2>
+      <ColorModeContextProvider>
+      
       <HomePage />
+      </ColorModeContextProvider>
     </>
   );
 }
