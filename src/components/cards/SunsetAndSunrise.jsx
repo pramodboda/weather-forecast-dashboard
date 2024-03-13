@@ -26,7 +26,8 @@ function SunsetAndSunrise() {
           flexWrap="wrap"
         >
           <Box sx={{ textAlign: "center" }}>
-          <SunriseSVGIcon/>
+            <div ><SunriseSVGIcon/></div>
+          
             <Typography variant="body2" color="text.secondary">
               Sunrise
             </Typography>
@@ -36,7 +37,8 @@ function SunsetAndSunrise() {
           </Box>
 
           <Box sx={{ textAlign: "center" }}>
-          <SunsetSVGIcon/>
+            <div><SunsetSVGIcon/></div>
+          
             <Typography variant="body2" color="text.secondary">
               Sunset
             </Typography>

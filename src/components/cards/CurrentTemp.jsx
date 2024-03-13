@@ -66,9 +66,9 @@ function CurrentTemp() {
 	</line>
 </svg> */}
 
-          <Typography variant="h2" color="text.secondary" gutterBottom>
+          <Typography variant="h1" color="text.secondary" gutterBottom>
             
-            27<span className="tempPower">°C</span>
+            27<sup className="tempPower">°C</sup>
           </Typography>
           <Box>
           <Typography className="weathermain-text" color="text.secondary">

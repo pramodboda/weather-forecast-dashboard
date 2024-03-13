@@ -1,7 +1,9 @@
 import React from "react";
 import Stack from "@mui/material/Stack";
 import Card from "@mui/material/Card";
+
 import CardContent  from "@mui/material/CardContent";
+import Box from "@mui/material/Box";
 
 function DayWeatherCard(props) {
     const {day, icon, temp} = props;
@@ -15,7 +17,7 @@ function DayWeatherCard(props) {
       spacing={2}
     >
         <div>{day}</div>
-      <div>{icon}</div>
+      <Box className="svg-icon">{icon}</Box>
       <div>{temp}</div>
 
     </Stack>
