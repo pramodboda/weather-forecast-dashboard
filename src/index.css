@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+}
 /* 
 a {
   font-weight: 500;
@@ -66,9 +71,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-.tempPower{
+.tempPower {
   font-size: 2rem;
-  
 }
 
 .wind-status-area-chart {
@@ -76,5 +80,6 @@ button:focus-visible {
   min-height: inherit;
 }
 
-.svg-icon svg{width: 100%;}
-
+.svg-icon svg {
+  width: 100%;
+}

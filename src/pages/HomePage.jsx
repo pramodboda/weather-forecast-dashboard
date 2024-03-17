@@ -1,5 +1,6 @@
 import React from "react";
 
+import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import Box  from "@mui/material/Box";
 import CurrentTemp from "../components/cards/CurrentTemp";
@@ -18,11 +19,15 @@ import DayWeatherCard from "../components/cards/DayWeatherCard";
 
 //Icons
 import PartlyCloudyDaySVGIcon from "../assets/weather-icons/PartlyCloudyDaySVGIcon.jsx"
+import PartlyCloudyDaySmoke from "../assets/weather-icons/PartlyCloudyDaySmoke.jsx"
 
 function HomePage() {
   return (
     <>
-     <Typography variant="h4">Weather Forecast Dashboard</Typography>
+    
+    <Paper>
+      <div class="container">
+      <Typography variant="h4">Weather Forecast Dashboard</Typography>
     <DarkLightModeBtn/>
    
       <Grid container item spacing={2} >
@@ -36,7 +41,7 @@ function HomePage() {
              <DayWeatherCard day="Sun" icon={<PartlyCloudyDaySVGIcon/>} temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
-             <DayWeatherCard day="Mon" icon="coming soon" temp="10" />
+             <DayWeatherCard day="Mon" icon={<PartlyCloudyDaySmoke/>} temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
              
@@ -76,7 +81,13 @@ function HomePage() {
           </Grid>
         </Grid>
       </Grid>
+      </div>
+   
+      </Paper>
     </>
+
+    
+
   );
 }
 
