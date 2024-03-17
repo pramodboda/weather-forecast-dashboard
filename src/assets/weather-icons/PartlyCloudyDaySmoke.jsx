@@ -81,14 +81,16 @@ function PartlyCloudyDaySmoke(props) {
             begin="0s; g.end+.75s"
             dur="2.25s"
             values="24; 36"
+            // repeatCount="indefinite"
           />
           <animate
-            id="z1"
+            id="PartlyCloudyDaySmoke-z1"
             attributeName="opacity"
             begin="0s; g.end+.75s"
             dur="2.25s"
             keyTimes="0; .17; .83; 1"
             values="0; 1; 1; 0"
+            // repeatCount="indefinite"
           />
         </circle>
         <circle
@@ -109,6 +111,7 @@ function PartlyCloudyDaySmoke(props) {
             dur="2.25s"
             type="translate"
             values="0 0; 58 -118"
+            repeatCount="indefinite"
           />
           <animate
             id="PartlyCloudyDaySmoke-i"
@@ -116,6 +119,7 @@ function PartlyCloudyDaySmoke(props) {
             begin=".83s; i.end+.75s"
             dur="2.25s"
             values="24; 36"
+            // repeatCount="indefinite"
           />
           <animate
             id="PartlyCloudyDaySmoke-j"
@@ -124,6 +128,7 @@ function PartlyCloudyDaySmoke(props) {
             dur="2.25s"
             keyTimes="0; .17; .83; 1"
             values="0; 1; 1; 0"
+            repeatCount="indefinite"
           />
         </circle>
         <circle
@@ -144,6 +149,8 @@ function PartlyCloudyDaySmoke(props) {
             dur="2.25s"
             type="translate"
             values="0 0; 0 -118"
+            repeatCount="indefinite"
+            
           />
           <animate
             id="y3"
@@ -151,6 +158,7 @@ function PartlyCloudyDaySmoke(props) {
             begin="1.66s; y3.end+.75s"
             dur="2.25s"
             values="24; 36"
+            repeatCount="indefinite"
           />
           <animate
             id="z3"
@@ -159,6 +167,7 @@ function PartlyCloudyDaySmoke(props) {
             dur="2.25s"
             keyTimes="0; .17; .83; 1"
             values="0; 1; 1; 0"
+            repeatCount="indefinite"
           />
         </circle>
       </symbol>

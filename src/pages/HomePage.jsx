@@ -18,15 +18,17 @@ import DayWeatherCard from "../components/cards/DayWeatherCard";
 
 
 //Icons
-import PartlyCloudyDaySVGIcon from "../assets/weather-icons/PartlyCloudyDaySVGIcon.jsx"
-import PartlyCloudyDaySmoke from "../assets/weather-icons/PartlyCloudyDaySmoke.jsx"
+import PartlyCloudyDaySVGIcon from "../assets/weather-icons/PartlyCloudyDaySVGIcon.jsx";
+import PartlyCloudyDaySmoke from "../assets/weather-icons/PartlyCloudyDaySmoke.jsx";
+import ThunderstormsDay from "../assets/weather-icons/ThunderstormsDay.jsx";
+import ThunderstormsDayRain from "../assets/weather-icons/ThunderstormsDayRain.jsx";
 
 function HomePage() {
   return (
     <>
     
     <Paper>
-      <div class="container">
+      <div className="container">
       <Typography variant="h4">Weather Forecast Dashboard</Typography>
     <DarkLightModeBtn/>
    
@@ -45,11 +47,11 @@ function HomePage() {
             </Grid>
             <Grid item xs={2} sm={2}>
              
-              <DayWeatherCard day="Tue" icon="coming soon" temp="10" />
+              <DayWeatherCard day="Tue" icon={<ThunderstormsDay/>} temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
              
-              <DayWeatherCard day="Wed" icon="coming soon" temp="10" />
+              <DayWeatherCard day="Wed" icon={<ThunderstormsDayRain/>} temp="10" />
             </Grid>
             <Grid item xs={2} sm={2}>
              
