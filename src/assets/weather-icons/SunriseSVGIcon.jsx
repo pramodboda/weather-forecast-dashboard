@@ -12,7 +12,7 @@ function SunriseSVGIcon(props) {
   >
     <defs>
       <linearGradient
-        id="a"
+        id="SunriseSVGIcon-a"
         x1={149.99}
         y1={119.24}
         x2={234.01}
@@ -23,13 +23,13 @@ function SunriseSVGIcon(props) {
         <stop offset={0.45} stopColor="#fbbf24" />
         <stop offset={1} stopColor="#f59e0b" />
       </linearGradient>
-      <clipPath id="b">
+      <clipPath id="SunriseSVGIcon-b">
         <path
           d="M512,306H304l-35.86-31.38a18.44,18.44,0,0,0-24.28,0L208,306H0V0H512Z"
           fill="none"
         />
       </clipPath>
-      <symbol id="c" viewBox="0 0 384 384">
+      <symbol id="SunriseSVGIcon-c" viewBox="0 0 384 384">
         <circle
           cx={192}
           cy={192}
@@ -37,7 +37,7 @@ function SunriseSVGIcon(props) {
           stroke="#f8af18"
           strokeMiterlimit={10}
           strokeWidth={6}
-          fill="url(#a)"
+          fill="url(#SunriseSVGIcon-a)"
         />
         <path
           d="M192,61.66V12m0,360V322.34M284.17,99.83l35.11-35.11M64.72,319.28l35.11-35.11m0-184.34L64.72,64.72M319.28,319.28l-35.11-35.11M61.66,192H12m360,0H322.34"
@@ -58,12 +58,12 @@ function SunriseSVGIcon(props) {
         </path>
       </symbol>
     </defs>
-    <g clipPath="url(#b)">
+    <g clipPath="url(#SunriseSVGIcon-b)">
       <use
         width={384}
         height={384}
         transform="translate(64 100)"
-        xlinkHref="#c"
+        xlinkHref="#SunriseSVGIcon-c"
       />
     </g>
     <polyline

@@ -12,7 +12,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
   >
     <defs>
       <linearGradient
-        id="b"
+        id="PartlyCloudyNightRainSVGIcon-b"
         x1={13.58}
         x2={24.15}
         y1={15.57}
@@ -31,7 +31,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
         />
       </linearGradient>
       <linearGradient
-        id="c"
+        id="PartlyCloudyNightRainSVGIcon-c"
         x1={22.56}
         x2={39.2}
         y1={21.96}
@@ -43,7 +43,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
-        id="a"
+        id="PartlyCloudyNightRainSVGIcon-a"
         x1={22.53}
         x2={25.47}
         y1={42.95}
@@ -55,24 +55,24 @@ function PartlyCloudyNightRainSVGIcon(props) {
         <stop offset={1} stopColor="#0950bc" />
       </linearGradient>
       <linearGradient
-        id="d"
+        id="PartlyCloudyNightRainSVGIcon-d"
         x1={29.53}
         x2={32.47}
         y1={42.95}
         y2={48.05}
-        xlinkHref="#a"
+        xlinkHref="#PartlyCloudyNightRainSVGIcon-a"
       />
       <linearGradient
-        id="e"
+        id="PartlyCloudyNightRainSVGIcon-e"
         x1={36.53}
         x2={39.47}
         y1={42.95}
         y2={48.05}
-        xlinkHref="#a"
+        xlinkHref="#PartlyCloudyNightRainSVGIcon-a"
       />
     </defs>
     <path
-      fill="url(#b)"
+      fill="url(#PartlyCloudyNightRainSVGIcon-b)"
       stroke="#72b9d5"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -88,7 +88,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
       />
     </path>
     <path
-      fill="url(#c)"
+      fill="url(#PartlyCloudyNightRainSVGIcon-c)"
       stroke="#e6effc"
       strokeMiterlimit={10}
       strokeWidth={0.5}
@@ -96,7 +96,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
     />
     <path
       fill="none"
-      stroke="url(#a)"
+      stroke="url(#PartlyCloudyNightRainSVGIcon-a)"
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={2}
@@ -118,7 +118,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
     </path>
     <path
       fill="none"
-      stroke="url(#d)"
+      stroke="url(#PartlyCloudyNightRainSVGIcon-d)"
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={2}
@@ -142,7 +142,7 @@ function PartlyCloudyNightRainSVGIcon(props) {
     </path>
     <path
       fill="none"
-      stroke="url(#e)"
+      stroke="url(#PartlyCloudyNightRainSVGIcon-e)"
       strokeLinecap="round"
       strokeMiterlimit={10}
       strokeWidth={2}

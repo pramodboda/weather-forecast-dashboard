@@ -62,7 +62,7 @@ function UVIndexPieChart() {
         <Cell key={`cell-${index}`} fill={entry.color} />
       ))}
     </Pie>
-    {needle(value, data, cx, cy, iR, oR, '#424242')}
+    {needle(value, data, cx, cy, iR, oR, '#9e9e9e')}
   </PieChart>
   </ResponsiveContainer>
   )
