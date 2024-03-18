@@ -8,10 +8,12 @@ import Typography from "@mui/material/Typography";
 
 import NavigationIcon from "@mui/icons-material/Navigation";
 import AirIcon from "@mui/icons-material/Air";
+import Wind from "../../assets/weather-icons/Wind";
 
 import WindStatusAreaChart from "../graphs/WindStatusAreaChart";
 import WindStatusBarChart from "../graphs/WindStatusBarChart";
 function WindStatus() {
+  
   return (
     <Card>
       <CardContent>
@@ -48,10 +50,13 @@ function WindStatus() {
           </Box>
 
           <Box sx={{ textAlign: "center" }}>
-            <Typography color="text.secondary">
+            {/* <Typography color="text.secondary" sx={{fontSize: "2.5rem" }}>
               <AirIcon sx={{ fontSize: "2.5rem" }} />
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
+            </Typography> */}
+            <Box sx={{width:"3rem", marginBottom:"0.8rem"}}>
+            <Wind />
+            </Box>
+            <Typography variant="body2" color="text.secondary" sx={{marginTop:"-20px"}}>
               Gust
             </Typography>
             <Typography variant="h4" color="text.secondary">
