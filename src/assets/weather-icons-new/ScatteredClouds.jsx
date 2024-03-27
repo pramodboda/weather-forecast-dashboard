@@ -1,6 +1,6 @@
 import React from 'react'
 
-// scattered clouds: Day and Night same - 25-50%
+// scattered clouds/ Cloudy : Day and Night same - 25-50%
 // code: 802
 function ScatteredClouds(props) {
   return (
