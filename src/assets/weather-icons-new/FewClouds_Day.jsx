@@ -1,10 +1,9 @@
 import React from 'react'
 
 
-// few clouds/ Partly Cloudy Day: 11-25%
+// few clouds/ Partly Cloudy - Day: 11-25%
 // 801
-
-function PartlyCloudyDaySVGIcon(props) {
+function FewClouds_Day(props) {
   return (
     <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -95,4 +94,4 @@ function PartlyCloudyDaySVGIcon(props) {
   )
 }
 
-export default PartlyCloudyDaySVGIcon
+export default FewClouds_Day
