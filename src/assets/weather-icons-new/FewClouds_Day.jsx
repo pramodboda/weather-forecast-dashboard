@@ -13,12 +13,12 @@ function FewClouds_Day(props) {
   >
     
     <defs>
-      <symbol id="PartlyCloudyDaySVGIcon-c" viewBox="0 0 196 196">
+      <symbol id="FewClouds_Day-c" viewBox="0 0 196 196">
         <circle
           cx={98}
           cy={98}
           r={40}
-          fill="url(#PartlyCloudyDaySVGIcon-a)"
+          fill="url(#FewClouds_Day-a)"
           stroke="#f8af18"
           strokeMiterlimit={10}
           strokeWidth={4}
@@ -41,26 +41,26 @@ function FewClouds_Day(props) {
           />
         </path>
       </symbol>
-      <symbol id="PartlyCloudyDaySVGIcon-d" viewBox="0 0 350 222">
+      <symbol id="FewClouds_Day-d" viewBox="0 0 350 222">
         <path
-          fill="url(#PartlyCloudyDaySVGIcon-b)"
+          fill="url(#FewClouds_Day-b)"
           stroke="#e6effc"
           strokeMiterlimit={10}
           strokeWidth={6}
           d="m291 107-2.5.1A83.9 83.9 0 00135.6 43 56 56 0 0051 91a56.6 56.6 0 00.8 9A60 60 0 0063 219l4-.2v.2h224a56 56 0 000-112Z"
         />
       </symbol>
-      <symbol id="PartlyCloudyDaySVGIcon-e" viewBox="0 0 363 258">
-        <use xlinkHref="#PartlyCloudyDaySVGIcon-c" width={196} height={196} />
+      <symbol id="FewClouds_Day-e" viewBox="0 0 363 258">
+        <use xlinkHref="#FewClouds_Day-c" width={196} height={196} />
         <use
-          xlinkHref="#PartlyCloudyDaySVGIcon-d"
+          xlinkHref="#FewClouds_Day-d"
           width={350}
           height={222}
           transform="translate(13 36)"
         />
       </symbol>
       <linearGradient
-        id="PartlyCloudyDaySVGIcon-b"
+        id="FewClouds_Day-b"
         x1={99.5}
         x2={232.6}
         y1={30.7}
@@ -72,7 +72,7 @@ function FewClouds_Day(props) {
         <stop offset={1} stopColor="#deeafb" />
       </linearGradient>
       <linearGradient
-        id="PartlyCloudyDaySVGIcon-a"
+        id="FewClouds_Day-a"
         x1={78}
         x2={118}
         y1={63.4}
@@ -85,7 +85,7 @@ function FewClouds_Day(props) {
       </linearGradient>
     </defs>
     <use
-      xlinkHref="#PartlyCloudyDaySVGIcon-e"
+      xlinkHref="#FewClouds_Day-e"
       width={363}
       height={258}
       transform="translate(68 109)"
