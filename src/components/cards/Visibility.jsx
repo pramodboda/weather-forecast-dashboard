@@ -7,7 +7,6 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
 import WindOnshore from "../../assets/weather-icons/WindOnshore"
-
 function Visibility() {
   return (
     <Card>

@@ -23,6 +23,8 @@ import PartlyCloudyDaySmoke from "../assets/weather-icons/PartlyCloudyDaySmoke.j
 import ThunderstormsDay from "../assets/weather-icons/ThunderstormsDay.jsx";
 import ThunderstormsDayRain from "../assets/weather-icons/ThunderstormsDayRain.jsx";
 
+import Dust from "../assets/weather-icons-new/Dust.jsx"
+
 function HomePage() {
   return (
     <>
@@ -34,6 +36,7 @@ function HomePage() {
    
       <Grid container item spacing={2} >
         <Grid item xs={12} sm={3} >
+          <Dust/>
           <CurrentTemp />
         </Grid>
         <Grid item xs={12} sm={9}>
