@@ -16,7 +16,12 @@ function CurrentTemp() {
     <Card >
       <CardContent>
         <Typography variant="body2">Current weather</Typography>
-
+		
+		<Typography variant="h6" color="text.secondary" gutterBottom>
+            
+		Gachibowli
+          </Typography>
+	
         <Stack
           spacing={{ xs: 1, sm: 2 }}
           direction={{ xs: 'column', sm: 'row' }}
