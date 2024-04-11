@@ -1,17 +1,17 @@
-import React from 'react'
+import React,{createContext, useState, useMemo} from 'react'
 
 
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { deepPurple, grey, deepOrange } from "@mui/material/colors";
-export const ColorModeContext = React.createContext({
+export const ColorModeContext = createContext({
   toggleColorMode: () => {},
   mode: "light"
 });
 
 export const ColorModeContextProvider = ({ children }) => {
-  const [mode, setMode] = React.useState("light");
+  const [mode, setMode] = useState("light");
 
-  const colorMode = React.useMemo(
+  const colorMode = useMemo(
     () => ({
       toggleColorMode: () => {
         setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
@@ -21,7 +21,7 @@ export const ColorModeContextProvider = ({ children }) => {
     [mode]
   );
 
-  const theme = React.useMemo(
+  const theme = useMemo(
     () =>
       createTheme({
         typography:{
