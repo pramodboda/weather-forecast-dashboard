@@ -24,6 +24,7 @@ import ThunderstormsDay from "../assets/weather-icons/ThunderstormsDay.jsx";
 import ThunderstormsDayRain from "../assets/weather-icons/ThunderstormsDayRain.jsx";
 
 import Smoke from "../assets/weather-icons-new/Smoke.jsx";
+import Snow from "../assets/weather-icons-new/Snow.jsx";
 
 function HomePage() {
   return (
@@ -36,7 +37,7 @@ function HomePage() {
    
       <Grid container item spacing={2} >
         <Grid item xs={12} sm={3} >
-          <Smoke/>
+          <Snow/>
           <CurrentTemp />
         </Grid>
         <Grid item xs={12} sm={9}>
